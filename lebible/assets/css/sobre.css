@@ -1,0 +1,291 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+html{
+    background: rgb(255, 224, 24, 1);
+    color:#000;
+    width: 100vw;
+}
+
+body{
+
+}
+
+#down-text-color{
+    color:black;
+}
+
+
+
+@media (min-width:340px) and (max-width:599px){
+
+
+    #icon-instagram{
+        display: flex;
+        flex-direction: center;
+        align-self: center;
+        justify-content: left;
+        margin-left: auto;
+        margin-right:auto;
+        padding:10px;
+    }
+
+
+    #icon-instagram p{
+        margin-top: 5px;
+        margin-left:5px;
+        font-weight:700;
+    }
+
+    #header{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        background: rgb(0, 0, 0, 1);
+        color:#fff;
+        width: 100%;
+        text-align: center;
+    }
+
+    #header li{
+        float:left;
+        list-style: none;
+        padding:10px;
+    }
+
+    #header ul > li{
+        width: 100%;
+    }
+
+    #header a{
+        display: inline-flex;
+        color:#fff;
+        text-decoration: none;
+        font-weight: 700;
+        padding: 15px;
+        width:100%;
+    }  
+
+    #header a:hover{
+        background: rgb(255, 255, 255, 1);
+        color:#000;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 15px;
+        width: 100%;
+    } 
+
+
+    #main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: calc(5% - 5px);
+        color:#fff;
+        align-content: center;
+        align-items: center;
+        vertical-align: center;
+        align-self: center;
+    }
+
+    #main div{
+        padding:2px;
+    }
+
+    #download img{
+        width:100%;
+    }
+
+    #main img{
+        border:1px solid #fff;
+        margin:0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding:0px;
+        width: 300px;
+    }
+
+    #main p{
+        background: #ffffff;
+        color:#000;
+        font-weight: 700;
+        text-align: center;
+        padding:10px;
+    }
+
+
+    #footer{
+        display:flex;
+        flex-direction: column;
+        background: rgb(0, 0, 0, 1);
+        color:#fff;
+        width: 100%;
+        padding: 15px;
+    }
+
+    #footer h3{
+        align-content: center;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:999px) and (max-width:1200px)
+{
+
+
+    /*icones*/
+
+    #icon-instagram{
+        display: flex;
+        flex-direction: center;
+        align-self: center;
+        justify-content: left;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+
+    #icon-instagram p{
+        margin-top: 5px;
+        margin-left:5px;
+        font-weight:700;
+    }
+
+    /*final icones*/
+
+
+    #header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background: rgb(0, 0, 0, 1);
+        color:#fff;
+        height: 45px;
+        width: 100%;
+    }
+
+    #header li{
+        float:left;
+        list-style: none;
+        padding:10px;
+    }
+
+    #header li:hover ul, #menu li.over ul {
+        display: block;
+    }
+
+    /*
+    #header li ul li{
+        
+    }*/
+
+    #header a{
+        color:#fff;
+        text-decoration: none;
+        font-weight: 700;
+        padding: 15px;
+    }  
+
+    #header a:hover{
+        background: rgb(255, 255, 255, 1);
+        border-radius: 8px;
+        color:#000;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 15px;
+    } 
+
+    .main{
+        display: inline-block;
+        margin-left: 200px;
+        margin-right:200px;
+    }
+
+    .main div > img {
+        width:25%;
+    }
+
+    .main p{
+        width:70%;
+    }
+
+    .main p{
+        color:#000;
+    }
+
+    .main a{
+        color:#f00;
+        text-decoration: none;
+        width:25%;
+    }
+
+    .main a:hover{
+        color:#f00;
+        text-decoration: none;
+        width:25%;
+    }
+
+    
+    .main div{
+        padding:2px;
+    }
+
+    .main img{
+        border-top-color: transparent;
+        margin:0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding:0px;
+    }
+
+    #main #p-download{
+        background: #ffffff;
+        color:#000;
+        font-weight: 700;
+        text-align: center;
+        padding:10px;
+    }
+
+    #download-div div{
+        width:100%;
+        padding-right: 100px;   
+    }
+
+    #p-default{
+        color:#000;
+        text-align: justify;
+        padding:10px;
+        font-weight: 800;
+    }
+
+    #p-default a, a:hover{
+        color:#fff;
+    }
+
+    #main #p-fotos{
+        background: #ffffff;
+        color:#000;
+        font-weight: 700;
+        text-align: center;
+        padding:10px;
+    }
+
+    #footer{
+        display:flex;
+        flex-direction: column;
+        background: rgb(0, 0, 0, 1);
+        color:#fff;
+        width: 100%;
+        padding: 15px;
+    }
+
+    #footer h3{
+        align-content: center;
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+const horarios = dias[
+     {
+        "a": "Banco de Dados",
+        "b": "Redes de Computadores",
+        "c": "Tópicos de Programação"
+     },
+     {
+        "a": "Banco de Dados",
+        "b": "Redes de Computadores",
+        "c": "Tópicos de Programação"
+     },
+     {
+        "a": "Banco de Dados",
+        "b": "Redes de Computadores",
+        "c": "Tópicos de Programação"
+     },
+     {
+        "a": "Banco de Dados",
+        "b": "Redes de Computadores",
+        "c": "Tópicos de Programação"
+     },
+     {
+        "a": "Banco de Dados",
+        "b": "Redes de Computadores",
+        "c": "Tópicos de Programação"
+     }
+]

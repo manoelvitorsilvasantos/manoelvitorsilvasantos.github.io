@@ -1,0 +1,26 @@
+{
+  "horarios": [
+    [
+      "PR WEB",
+      "REDES I",
+      "TP PR"
+    ],
+    [
+      "BD II",
+      "ADM"
+    ],
+    [
+      "PR WEB",
+      "ENG. SOFT I"
+    ],
+    [
+      "ADMIN",
+      "BD II",
+      "REDES I"
+    ],
+    [
+      "PR WEB",
+      "ENG. SOFT"
+    ]
+  ]
+}

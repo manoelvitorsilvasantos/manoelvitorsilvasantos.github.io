@@ -1,0 +1,14 @@
+
+/* Configurações gerais do site*/
+:root{
+	--default: linear-gradient(15deg,#AAABff, #0AABFF);
+	--bg-default: linear-gradient(15deg,skyblue, #0AABFF);
+	--bg-main:linear-gradient(180deg,skyblue, #0AABFF);
+	--bg-footer: linear-gradient(180deg,skyblue, #0AABFF);
+	--bg-aside: linear-gradient(180deg,skyblue, #0AABFF);
+	--text-color:#000;
+	--bg_header: #FFFFFF;
+	--tcolor_header: #000000;
+	--spacing-default: 10px;
+	--font-default:Verdana;
+}
