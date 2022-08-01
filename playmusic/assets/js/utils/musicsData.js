@@ -142,7 +142,81 @@ const musicsData = [
     name: "Razões E Emoções",
     performer: "Cedo ou Tarde",
   },
+
+  {
+    musicFile:"Within Temptation – Don’t Pray For Me.mp3",
+    albumFile:"Dont_pray_to_me.jpg",
+    name: "Dont pray for me",
+    performer:"Dont pray for me"
+  },
+
+  {
+    musicFile:"Within Temptation - Supernova (Official Music Video).mp3",
+    albumFile:"Resist.jpg",
+    name: "Resist",
+    performer:"Supernova"
+  },
+
+  {
+    musicFile:"Winthin Temptation - A Demons Fate.mp3",
+    albumFile:"The_unforgiving.jpg",
+    name: "The Unforgiving",
+    performer:"A Demon Fate"
+  },
+
+  //ELEINE - Enemies (OFFICIAL VIDEO)
+   {
+    musicFile:"ELEINE - Enemies (OFFICIAL VIDEO).mp3",
+    albumFile:"Enemies.jpg",
+    name: "Enemies",
+    performer:"Enemies"
+  },
   
+   {
+    musicFile:"NOCTURNA - Daughters of the Night (Official Video).mp3",
+    albumFile:"Daughters_of_the_night.jpg",
+    name: "Daughters of The Night",
+    performer:"Daughters of The Night"
+  },
+
+   {
+    musicFile:"Deathstars - Play god.mp3",
+    albumFile:"termination_bliss.jpg",
+    name: "Termination Bliss",
+    performer:"Play God"
+  },
+
+   {
+    musicFile:"Deathstars - Semi Automatic.mp3",
+    albumFile:"sinthetic_generation.jpg",
+    name: "Sinthetic Generation",
+    performer:"Semi-Automatic"
+  },
+
+   {
+    musicFile:"Deathstars   Babylon(with lyrics).mp3",
+    albumFile:"night_electric_night.jpg",
+    name: "Night Eletric Night",
+    performer:"Babylon"
+  },
+
+    {
+    musicFile:"Sybreed - Doomsday Party.mp3",
+    albumFile:"the_pulse_of_awakening.jpg",
+    name: "The Pulse of Awakening",
+    performer:"Doomsday Party"
+  },
+
+{
+    musicFile:"Nachtmahr - Mörder.mp3",
+    albumFile:"alle_lust_will_ewigkeit.jpg",
+    name: "All Lust Will Ewigkeit",
+    performer:"Mörder"
+  },
+
+  //Nachtmahr - Mörder
+  //alle_lust_will_ewigkeit.jpg
+
   {
     musicFile: "U.M.M. - EBM.mp3",
     albumFile:"UMM-EBM.jpg",
