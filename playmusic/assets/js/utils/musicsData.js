@@ -62,6 +62,49 @@ const musicsData = [
   },
 
   {
+    musicFile: "Global Deejays - Get Up ft. Technotronic.mp3",
+    albumFile:"Global Deejays - Get Up ft. Technotronic.jpg",
+    name:"Get Up",
+    performer:"Get Up ft. Technotronic",
+
+  },
+
+  {
+    musicFile:"Basshunter DotA.mp3",
+    albumFile:"Basshunter DotA.jpg",
+    name:"Now you are gone",
+    performer:"DotA",
+  },
+
+  {
+    musicFile:"DJ Dean - Play It Hard.mp3",
+    albumFile:"DJ Dean - Play It Hard.jpg",
+    name:"Play It Hard",
+    performer:"Play It Hard",
+  },
+
+  {
+    musicFile:"Rubi - Ich will dich [Extendet Mix].mp3",
+    albumFile:"Rubi - Ich will dich [Extendet Mix].jpg",
+    name:"Ich Will dich",
+    performer:"Ich Will Dich",
+  },
+
+  {
+    musicFile:"Tauz - ANBU  Prod Sidney Scaccio.mp3",
+    albumFile:"Tauz - ANBU  Prod Sidney Scaccio.jpg",
+    name:"Rap dos Anbus",
+    performer:"ANBU  Prod Sidney Scaccio",
+  },
+
+  {
+    musicFile:"Bullet For My Valentine - Tears Don't Fall.mp3",
+    albumFile:"Bullet For My Valentine - Tears Don't Fall.jpg",
+    name:"Tears Dont Fall",
+    performer:"Tears Don't Fall",
+  },
+
+  {
     musicFile: "fuck love - all that remains.mp3",
     albumFile : "album_all_that_remains_victim_of_the_new_disease.jpg",
     name: "Victim of the new disease",
