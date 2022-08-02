@@ -16,7 +16,7 @@ const musicsData = [
   },
 
   {
-    musicFile: "3 - Tonight in flames.mp3",
+    musicFile: "Cradle Of Filth - Tonight in flames.mp3",
     albumFile:"Thornography - Album - Cover.jpg",
     name:"Thornography",
     performer:"Tonight in flames",
@@ -25,7 +25,7 @@ const musicsData = [
     
  
   {
-    musicFile: "7 - Cemetery And Sundown.mp3",
+    musicFile: "Cradle Of Filth - Cemetery And Sundown.mp3",
     albumFile:"Thornography - Album - Cover.jpg",
     name:"Thornography",
     performer:"Cemetery And Sundown",
@@ -33,7 +33,7 @@ const musicsData = [
   },
  
   {
-    musicFile: "9 - the foetus of a new day kicking.mp3",
+    musicFile: "Cradle Of Filth -  the foetus of a new day kicking.mp3",
     albumFile:"Thornography - Album - Cover.jpg",
     name:"Thornography",
     performer:"The foetus of a new day kicking",
@@ -41,7 +41,7 @@ const musicsData = [
   },
 
     {
-    musicFile: "12 - Temptation (Heaven 17 Cover)  (Featuring Dirty Harry).mp3",
+    musicFile: "Cradle Of Filth - Temptation (Heaven 17 Cover)  (Featuring Dirty Harry).mp3",
     albumFile:"Thornography - Album - Cover.jpg",
     name:"Thornography",
     performer:"Temptation",
