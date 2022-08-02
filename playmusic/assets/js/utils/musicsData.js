@@ -16,84 +16,30 @@ const musicsData = [
   },
 
   {
-    musicFile: "1 - Under Pregnant Skies She Comes Alive Like Miss Leviathan.mp3",
-    albumFile:"Thornography - Album - Cover.jpg",
-    name:"Thornography",
-    performer:"Under Pregnant Skies She Comes Alive Like Miss Leviathan",
-
-  },
-
-  {
-    musicFile: "2 - Dirge Inferno.mp3",
-    albumFile:"Thornography - Album - Cover.jpg",
-    name:"Thornography",
-    performer:"Dirge Inferno",
-
-  },
-
-  {
     musicFile: "3 - Tonight in flames.mp3",
     albumFile:"Thornography - Album - Cover.jpg",
     name:"Thornography",
     performer:"Tonight in flames",
 
   },
-    {
-    musicFile: "4  - Libertina Grimm.mp3",
-    albumFile:"Thornography - Album - Cover.jpg",
-    name:"Thornography",
-    performer:"Libertina Grimm",
-
-  },
-    {
-    musicFile: "5 - The Byronic Man.mp3",
-    albumFile:"Thornography - Album - Cover.jpg",
-    name:"Thornography",
-    performer:"The Byronic Man",
-
-  },
-    {
-    musicFile: "6 - I am the thorn.mp3",
-    albumFile:"Thornography - Album - Cover.jpg",
-    name:"Thornography",
-    performer:"I am the thorn",
-
-  },
-    {
+    
+ 
+  {
     musicFile: "7 - Cemetery And Sundown.mp3",
     albumFile:"Thornography - Album - Cover.jpg",
     name:"Thornography",
     performer:"Cemetery And Sundown",
 
   },
-    {
-    musicFile: "8 - lovesick for mina.mp3",
-    albumFile:"Thornography - Album - Cover.jpg",
-    name:"Thornography",
-    performer:"Lovesick for mina",
-
-  },
-    {
+ 
+  {
     musicFile: "9 - the foetus of a new day kicking.mp3",
     albumFile:"Thornography - Album - Cover.jpg",
     name:"Thornography",
     performer:"The foetus of a new day kicking",
 
   },
-    {
-    musicFile: "10 - rise of the pentagram (instrumental).mp3",
-    albumFile:"Thornography - Album - Cover.jpg",
-    name:"Thornography",
-    performer:"Rise of the pentagram",
 
-  },
-    {
-    musicFile: "11 - under huntress moon.mp3",
-    albumFile:"Thornography - Album - Cover.jpg",
-    name:"Thornography",
-    performer:"Under huntress moon",
-
-  },
     {
     musicFile: "12 - Temptation (Heaven 17 Cover)  (Featuring Dirty Harry).mp3",
     albumFile:"Thornography - Album - Cover.jpg",
