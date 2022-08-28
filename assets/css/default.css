@@ -3,11 +3,11 @@
 :root{
 	--default: linear-gradient(15deg,#AAABff, #0AABFF);
 	/*--bg-default: linear-gradient(15deg,skyblue, #0AABFF);*/
-	--main-bg:linear-gradient(180deg, #fff, #fff);
-	--bg-default:linear-gradient(15deg, #000000, #000011);
-	--bg-main:linear-gradient(180deg,#fffff0, #fffff2);
-	--bg-footer: linear-gradient(180deg,skyblue, #0AABFF);
-	--bg-aside: linear-gradient(180deg,skyblue, #0AABFF);
+	--main-bg:#ECECEC;
+	--bg-default:linear-gradient(15deg, #C9BDBD, #cfcfcf);
+	--bg-main:#FFFFFF;
+	--bg-footer: #FAF2F2;
+	--bg-aside: #FAF2F2;
 	--text-color:#fff;
 	--bg_header: #FFFFFF;
 	--tcolor_header: #000;

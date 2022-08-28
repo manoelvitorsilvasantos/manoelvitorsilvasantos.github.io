@@ -9,11 +9,19 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="shortcut icon" href="./assets/img/icon_73382b806f24847537c85b23f6f28092.ico"/>
   <style type="text/css">
-    
+        
+ 
+
+    .tag_title{
+      color:#B655ED;
+      font-weight:bolder;
+      font-size:14px;
+    }
+
     #img{
       display:block;
       border-radius: 0px;
-      border-bottom: 1px solid gold;
+      border-bottom: 1px solid #000;
       margin:0;
       padding: 2px;
       margin-top: 10px;
@@ -23,7 +31,7 @@
     {
       display:block;
       border-radius: 5px;
-      border: 1px solid gold;
+      border: 1px solid #000;
       margin:0;
       padding: 2px;
       margin-top: 10px;
@@ -36,10 +44,16 @@
       padding: 0;
     }
 
+    #nav-main-intro{
+      border-radius:5px;
+      margin:20px;
+      background:#D8D4D4;
+      border:1px solid gray;
+    }
 
     #nav-main{
       border-left-style: dotted;
-      border-left-color: gold;
+      border-left-color: #000;
       margin-left: 50px;
       list-style: none; 
       font-weight: 700; 
@@ -48,7 +62,7 @@
     }
 
     #point div{
-      background: yellow;
+      background: #000;
       margin-left: auto;
     }
 
@@ -74,15 +88,24 @@
     }
 
     h4{
-      border: 1px solid black;
+      border: 1px solid #D7D7D7;
       list-style: none; 
       font-weight: 700; 
       font-family: cursive;
-      background: yellow; 
+      background: #f1f1f1; 
       margin: 4px 4px 4px 4px;
     }
 
     @media (max-width: 600px) {
+
+      .tag_title{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        color:#B655ED;
+        font-weight:bolder;
+        font-size:14px;
+      }
 
     
       #nav-main{
@@ -131,20 +154,47 @@
         <span id="hamburger"></span>
       </button>
       <ul id="menu" role="menu">
-        <li><a title="Inicio" href="index.html">INICIO</a></li>
-        <li><a title="Projetos" href="list.html">PROJETOS</a></li>
-        <li><a title="Live" href="live.html">LIVE</a></li>
-        <li><a title="Contatos" href="contact.html">CONTATOS</a></li>
-        <li><a title="Sobre" href="about.html">SOBRE</a></li>
-        <li><a title="Portif&oacute;lio" href="portifolio.html">Portif&oacute;lio</a></li>  
+        <li>
+          <a title="Inicio" href="index.html">
+            <img src="./assets/img/icones/home.png" width="32">
+          </a>
+        </li>
+        <li>
+          <a title="Projetos" href="list.html">
+            <img src="./assets/img/icones/project.png" width="32">
+          </a>
+        </li>
+        <li>
+          <a title="Live" href="live.html">
+            <img src="./assets/img/icones/live.png" width="32">
+          </a>
+        </li>
+        <li>
+          <a title="Contatos" href="contact.html">
+              <img src="./assets/img/icones/contatos.png" width="32">
+          </a>
+        </li>
+        <li>
+          <a title="Sobre" href="about.html">
+            <img src="./assets/img/icones/about.png" width="32">
+          </a>
+        </li> 
+        <li>
+          <a title="Portif&oacute;lio" href="portifolio.html">
+            <img src="./assets/img/icones/portifolio.png" width="32">
+          </a>
+        </li>  
       </ul>
     </nav>
   </header>
   <script src="./assets/js/script.js"></script>
   <main id="main">
     <br>
-    <h4>PORTIF&Oacute;LIO</h4>
-    
+      
+      <div class="div-portifolio">
+        <h1>Fullstack Developer & Requisite Analyse</h1>
+      </div>
+
     <div id="nav-img">
       <img id="img" 
       src="https://avatars.githubusercontent.com/u/23035967?s=400&u=bb6ba5089a4d0651edc1b1392d4535eb3c615a4c&v=4" 
@@ -152,11 +202,13 @@
     />
     </div>
     <nav id="nav-main">
-      <br>
-      <p >NAME: <span>Manoel Vitor Silva Santos</span></p>
-      <p >AGE: <span>30 Year older</span> </p>
-      <p >DATE: <span>31/08/1991</span> </p>
-      <br> 
+      <nav id="nav-main-intro">
+          <br>
+          <p><span class="tag_title">Name</span> Manoel Vitor Silva Santos</p>
+          <p ><span class="tag_title">Age</span> 30 Year older</p>
+          <p ><span class="tag_title">Birthday</span> 27/08/1991</p>
+          <br> 
+      </nav>
   </nav>
 
   <div id="nav-img">
@@ -166,11 +218,15 @@
     /></div>
 
     <nav id="nav-main">
-      <br>
-      <p >FIRST E-MAIL: <span>mvictordossantos.limite@gmail.com</span></p>
-      <p >SECOND E-MAIL: <span>mvictordossantos@gmail.com</span></p>
-      <p >CEL: <span>+55(74)9-9972-9815</span> </p>
-      <br> 
+      <nav id="nav-main-intro">
+        <br>
+        <p ><span class="tag_title">First mail</span> mvictordossantos.limite@gmail.com</p>
+        <p ><span class="tag_title">Second mail</span> mvictordossantos@gmail.com<</p>
+        <p ><span class="tag_title"><a  style="color:#000;text-decoration: none;"href="https://linkedin.com/in/manoelvitorsilvasantos" title="manoelvitorsilvasantos">Linkedin</a>
+        </span>
+        </p>
+        <br>
+      </nav> 
   </nav>
 
     <div id="nav-img">
@@ -181,7 +237,6 @@
 
     <nav id="nav-main">
       <br>
-      <p >EDUCATION LEVEL: <span> Full High School </span></p>
       <p >EDUCATION LEVEL: <span>Graduating in Systems Development Analysis </span></p>
       <br> 
   </nav>
