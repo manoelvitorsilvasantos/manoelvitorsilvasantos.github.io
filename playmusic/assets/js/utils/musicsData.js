@@ -250,7 +250,7 @@ const musicsData = [
   
   {
     musicFile: "Terminal Choice - Keine Macht.mp3",
-    albumFile: "Terminal_choice.jpg",
+    albumFile: "Terminal_choice.jpg.jpg",
     name: "Ubermacht",
     performer:"Keine Macht",
   },
