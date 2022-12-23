@@ -247,6 +247,13 @@ const musicsData = [
     name: "U.M.M",
     performer: "M.P.M.P.S.S.M",
   },
+  
+  {
+    musicFile: "Terminal Choice - Keine Macht.mp3",
+    albumFile: "Terminal_choice.jpg",
+    name: "Ubermacht",
+    performer:"Keine Macht",
+  },
 
 ];
 
