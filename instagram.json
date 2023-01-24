@@ -7,7 +7,7 @@
 		"quarta":["5h", "11h-15h"],
 		"quinta":["5h", "11h-15h"],
 		"sexta":["5h", "9h-16h"],
-		"sábado":["11h", "nulo", "nulo"]
+		"sábado":["11h", "nulo"]
 	},
 	
 	"story":{
@@ -17,7 +17,7 @@
 		"quarta":["5h", "11h-15h"],
 		"quinta":["5h", "11h-15h"],
 		"sexta":["5h", "9h-16h"],
-		"sábado":["11h", "nulo", "nulo"]
+		"sábado":["11h", "nulo"]
 	},
 	
 	"reels":{
@@ -27,7 +27,7 @@
 		"quarta":["5h", "11h-15h"],
 		"quinta":["5h", "11h-15h"],
 		"sexta":["5h", "9h-16h"],
-		"sábado":["11h", "nulo", "nulo"]
+		"sábado":["11h", "nulo"]
 	}
 	
 }
