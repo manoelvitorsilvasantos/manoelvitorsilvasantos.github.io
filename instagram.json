@@ -1,27 +1,33 @@
 {
-    "post": {
-        "segunda-feira": ["09:00", "12:00", "15:00"],
-        "terça-feira": ["10:00", "13:00", "16:00"],
-        "quarta-feira": ["11:00", "14:00", "17:00"],
-        "quinta-feira": ["09:00", "12:00", "15:00"],
-        "sexta-feira": ["10:00", "13:00", "16:00"]
-    },
-    "story": {
-        "segunda-feira": ["18:00", "20:00"],
-        "terça-feira": ["18:00", "20:00"],
-        "quarta-feira": ["18:00", "20:00"],
-        "quinta-feira": ["18:00", "20:00"],
-        "sexta-feira": ["18:00", "20:00"],
-        "sábado": ["11:00", "16:00"],
-        "domingo": ["11:00", "16:00"]
-    },
-    "reels": {
-        "segunda-feira": ["18:00", "20:00"],
-        "terça-feira": ["18:00", "20:00"],
-        "quarta-feira": ["18:00", "20:00"],
-        "quinta-feira": ["18:00", "20:00"],
-        "sexta-feira": ["18:00", "20:00"],
-        "sábado": ["11:00", "16:00"],
-        "domingo": ["11:00", "16:00"]
-    }
+
+	"post":{
+		"domingo" : ["10h", "14h"],
+		"segunda" : ["11h", "17h"],
+		"terça" :["5h" , "9h-18h"],
+		"quarta":["5h", "11h-15h"],
+		"quinta":["5h", "11h-15h"],
+		"sexta":["5h", "9h-16h"],
+		"sábado":["11h", "nulo", "nulo"]
+	},
+	
+	"story":{
+		"domingo" : ["10h", "14h"],
+		"segunda" : ["11h", "17h"],
+		"terça" :["5h" , "9h-18h"],
+		"quarta":["5h", "11h-15h"],
+		"quinta":["5h", "11h-15h"],
+		"sexta":["5h", "9h-16h"],
+		"sábado":["11h", "nulo", "nulo"]
+	},
+	
+	"reels":{
+		"domingo" : ["10h", "14h"],
+		"segunda" : ["11h", "17h"],
+		"terça" :["5h" , "9h-18h"],
+		"quarta":["5h", "11h-15h"],
+		"quinta":["5h", "11h-15h"],
+		"sexta":["5h", "9h-16h"],
+		"sábado":["11h", "nulo", "nulo"]
+	}
+	
 }
