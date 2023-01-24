@@ -11,23 +11,23 @@
 	},
 	
 	"story":{
-		"domingo" : ["10h", "14h"],
-		"segunda" : ["11h", "17h"],
-		"terça" :["5h" , "9h-18h"],
-		"quarta":["5h", "11h-15h"],
-		"quinta":["5h", "11h-15h"],
-		"sexta":["5h", "9h-16h"],
-		"sábado":["11h", "nulo"]
+		"domingo" : ["10h", "15h"],
+		"segunda" : ["10h", "12h"],
+		"terça" :["11h" , "12h"],
+		"quarta":["11h", "14h"],
+		"quinta":["11h", "12h"],
+		"sexta":["11h", "nulo"],
+		"sábado":["11h", "12h"]
 	},
 	
 	"reels":{
-		"domingo" : ["10h", "14h"],
-		"segunda" : ["11h", "17h"],
-		"terça" :["5h" , "9h-18h"],
-		"quarta":["5h", "11h-15h"],
-		"quinta":["5h", "11h-15h"],
-		"sexta":["5h", "9h-16h"],
-		"sábado":["11h", "nulo"]
+		"domingo" : ["9h", "10h e 18h"],
+		"segunda" : ["8h", "12h e 0h"],
+		"terça" :["11h" , "nulo"],
+		"quarta":["9h", "10h e 1h"],
+		"quinta":["14h", "nulo"],
+		"sexta":["7h", "nulo"],
+		"sábado":["13h", "21h e 22h"]
 	}
 	
 }
