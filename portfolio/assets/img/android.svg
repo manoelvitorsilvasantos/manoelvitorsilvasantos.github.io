@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256px"
+   height="256px"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="android.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5"
+     inkscape:cx="90"
+     inkscape:cy="411.41371"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="705"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     inkscape:grid-bbox="true">
+    <sodipodi:guide
+       position="0,0"
+       orientation="0,256"
+       id="guide2135"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="256,0"
+       orientation="-256,0"
+       id="guide2137"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="256,256"
+       orientation="0,-256"
+       id="guide2139"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,256"
+       orientation="256,0"
+       id="guide2141"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs881" />
+  <metadata
+     id="metadata884">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Camada 1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.66499996;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect2143"
+       width="256"
+       height="256"
+       x="0"
+       y="0"
+       ry="31" />
+    <g
+       transform="matrix(0.68560327,0,0,0.68560327,132,54.915804)"
+       style="fill:#00d455"
+       id="g863">
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         style="fill:#00d455;stroke:#ffffff;stroke-width:14.39999962"
+         xlink:href="#b"
+         id="use848" />
+      <use
+         height="100%"
+         width="100%"
+         y="0"
+         x="0"
+         xlink:href="#a"
+         transform="scale(-1,1)"
+         id="use850"
+         style="fill:#00d455;fill-opacity:1" />
+      <g
+         style="fill:#00d455;stroke:#ffffff;stroke-width:7.19999981"
+         id="a">
+        <rect
+           rx="6.5"
+           transform="rotate(29)"
+           height="86"
+           width="13"
+           y="-86"
+           x="14"
+           id="rect852"
+           style="fill:#00d455" />
+        <rect
+           id="c"
+           rx="24"
+           height="133"
+           width="48"
+           y="41"
+           x="-143"
+           style="fill:#00d455" />
+        <use
+           height="100%"
+           width="100%"
+           y="97"
+           x="85"
+           xlink:href="#c"
+           id="use855"
+           style="fill:#00d455" />
+      </g>
+      <g
+         id="b"
+         style="fill:#00d455">
+        <ellipse
+           cx="0"
+           cy="41"
+           rx="91"
+           ry="84"
+           id="ellipse858"
+           style="fill:#00d455" />
+        <rect
+           rx="22"
+           height="182"
+           width="182"
+           y="20"
+           x="-91"
+           id="rect860"
+           style="fill:#00d455" />
+      </g>
+    </g>
+    <g
+       transform="matrix(0.68560327,0,0,0.68560327,132,54.915804)"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:7.19999981"
+       id="g871">
+      <path
+         inkscape:connector-curvature="0"
+         d="M -95,44.5 H 95"
+         id="path865" />
+      <circle
+         cy="0"
+         cx="-42"
+         r="4"
+         id="circle867" />
+      <circle
+         cy="0"
+         cx="42"
+         r="4"
+         id="circle869" />
+    </g>
+  </g>
+</svg>
