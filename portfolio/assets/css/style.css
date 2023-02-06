@@ -1,18 +1,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Fondamento:ital@1&family=Heebo:wght@900&family=PT+Sans&family=Righteous&family=Sarala&family=Shadows+Into+Light+Two&display=swap');
 :root{
-	--main-default-grd1:#dd83dd;
-	--main-default-grd2:#ddaadd;
+	
+	/* Background Gradient */
+	--main-default-grd1:#2687cd;
+	--main-default-grd2:#44a0da;
+	--main-default-grd3:#F00677;
+	--main-default-grd4:#29DAF0;
+
 	--main-default-font:#ffffff;
 	--main-default-nav:#ebf7f8;
+
+	/*Ancoras da Página*/
 	--main-default-link:#ffffff;
-	--main-default-link-hover:#951e93;
+	--main-default-link-hover:#840943;
+	
+	/* Sombra */
 	--main-default-boxshadown:#000000;
+	
+	/*Borda */
 	--main-border-color:#ffffff;
+	
+	/* Icones de Redes Sociais */
 	--main-items-social:#ffffff;
-	--main-items-social-active:#680266;
+	--main-items-social-active:#F00677;
+
+	/* Borda Skills (Icones Imagens) */
 	--main-skill-imagem-shadown:#680266;
 
+	/* Botões */
 	--main-button-normal:#91268f;
 	--main-button-hover:#ba51b6;
 }
@@ -32,7 +48,7 @@ html{
 }
 
 body{
-	background:linear-gradient(68.15deg, var(--main-default-grd1), var(--main-default-grd2));
+	background:linear-gradient(68.15deg, var(--main-default-grd4), var(--main-default-grd1), var(--main-default-grd2), var(--main-default-grd3));
 	font-size:100%;
 }
 
@@ -46,6 +62,7 @@ body{
 
 .cabecalho-imagem{
 	height: 32px;
+	border-radius:20px;
 }
 
 .cabecalho-menu{
