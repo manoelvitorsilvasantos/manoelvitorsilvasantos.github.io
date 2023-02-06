@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Fondamento:ital@1&family=Heebo:wght@900&family=PT+Sans&family=Righteous&family=Sarala&family=Shadows+Into+Light+Two&display=swap');
+:root{
+	--main-default-grd1:#dd83dd;
+	--main-default-grd2:#ddaadd;
+	--main-default-font:#ffffff;
+	--main-default-nav:#ebf7f8;
+	--main-default-link:#ffffff;
+	--main-default-link-hover:#951e93;
+	--main-default-boxshadown:#000000;
+	--main-border-color:#ffffff;
+	--main-items-social:#ffffff;
+	--main-items-social-active:#680266;
+	--main-skill-imagem-shadown:#680266;
+
+	--main-button-normal:#91268f;
+	--main-button-hover:#ba51b6;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-decoration:none;
+	cursor:url(/assets/img/cursor.png), default;
+}
+
+
+html{
+	background: var(--main-default-background);
+	color:var(--main-default-font);
+}
+
+body{
+	background:linear-gradient(68.15deg, var(--main-default-grd1), var(--main-default-grd2));
+	font-size:100%;
+}
+
+.cabecalho{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content: space-around;
+	padding:24px;
+}
+
+.cabecalho-imagem{
+	height: 32px;
+}
+
+.cabecalho-menu{
+	display:flex;
+	gap:32px;
+}
+
+.cabecalho-menu-item{
+	color:var(--main-default-link);
+	font-family: 'Sarala', sans-serif;
+	font-weight:400;
+	font-size:18px;
+}
+
+
+.cabecalho-menu-item:hover{
+	color:var(--main-default-link-hover);
+}	
+
+.linha{
+	display:flex;
+	color:var(--main-default-font);
+	align-content:center;
+	margin:0px 2px 0px 2px;
+	width:99%;
+}
+
+
+.conteudo{
+	border-top:0.4px solid var(--main-default-font);
+	margin-bottom:48px;
+	padding:32px;
+}
+
+.conteudo-principal{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content: space-around;
+}
+
+.conteudo-principal-imagem{
+	border-radius:50%;
+	height:240px;
+	width:240px;
+}
+
+.conteudo-principal-imagem:hover{
+	box-shadow: 0px 0px 8px 0px var(--main-default-boxshadown);
+}
+
+.conteudo-principal-escrito{
+	display:flex;
+	flex-direction:column;
+	gap:32px;
+}
+
+.conteudo-principal-escrito-titulo{
+	font-family: 'Righteous', cursive;
+	font-weight:400;
+	font-size:32px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+	font-family: 'Sarala', sans-serif;
+	font-weight:400;
+	font-size:24px;
+}
+
+.conteudo-principal-escrito-button{
+	background: linear-gradient(to top, var(--main-button-normal), var(--main-button-hover));
+	border:none;
+	border-radius:20px;
+	color:#ffffff;
+	font-weight:500;
+	font-size:14px;
+	width:128px;
+	height:32px;
+}
+
+.conteudo-principal-escrito-button:hover{
+	background: linear-gradient(to top, var(--main-button-hover), var(--main-button-normal));
+	box-shadow: 0px 0px 8px 0px silver;
+}
+
+.conteudo-principal-escrito-button a{
+	color:white;
+	text-decoration:none;
+	font-weight:700;
+	font-size:14px;
+}
+
+
+.conteudo-principal-escrito-titulo{
+	font-family: 'Righteous', cursive;
+}
+
+.conteudo-secudario{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	/*margin-top:48px;*/
+	gap:24px;
+}
+
+.conteudo-secudario-titulo{
+	border-top:0.4px solid var(--main-border-color);
+	padding-top:48px;
+	font-family:'Righteous', cursive;
+	font-weight: 400;
+	font-size:24px;
+	padding-top:10px;
+	/*margin-bottom:16px;*/
+}
+
+.conteudo-secudario-paragrafo{
+	display:flex;
+	flex-direction:column;
+	font-family: 'Sarala', sans-serif;
+	font-size:18px;
+	font-weight:200;
+	gap:24px;
+}
+
+
+.parte{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	padding:24px;
+}
+
+.titulo-skill{
+	display:block;
+	margin:0px auto;
+	text-align:center;
+	padding:10px;
+	padding-bottom:64px;
+}
+
+.skills{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	padding-bottom:52px;
+}
+
+.skills-conteudo{
+	display:flex;
+	flex-direction: row;
+	flex-grow:3;
+	flex-wrap:wrap;
+	align-items:center;
+	gap:120px;
+}
+
+.skills-conteudo-imagem{
+	border-radius:20px;
+	border:none;
+	display:block;
+	height:128px;
+	margin:0 auto;
+	padding:0;
+}
+
+.skills-conteudo-imagem:hover{
+	background: #ffffff;
+	padding:0px;
+	border:none;
+	box-shadow:0px 0px 10px 0px var(--main-skill-imagem-shadown);
+}
+
+.parte-principal{
+	display:flex;
+	flex-direction:row;
+	gap:16px;
+	color:silver;
+}
+
+.parte-principal-item{
+	color:var(--main-items-social);
+}
+
+.parte-principal-item:hover{
+	color:var(--main-items-social-active);
+}
+
+
+.rodape{
+	border-top:0.4px solid var(--main-border-color);
+	padding:32px;
+}
+
+.rodape-imagem{
+	display:block;
+	height:24px;
+	margin:0 auto;
+}
