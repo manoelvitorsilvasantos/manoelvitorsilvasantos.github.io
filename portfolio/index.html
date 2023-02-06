@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<meta name="description" content="Minha landpage para portifolio">
-		<title>Portifólio</title>
+		<title>Portfolio</title>
 		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 		<link rel="icon" type="image/png" href="./assets/img/photo.jpg">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,12 +12,27 @@
 	<body>
 		<!-- cabeçalho -->
 		<header class="cabecalho" name="titulo">
-			<a href="#" class="cabecalho-menu-item">
-				<i id="lang" class="fa-solid fa-language"></i>
+			<a 
+				href="#"
+				onclick="window.location='./pt-BR/index.html';" 
+				class="cabecalho-menu-item">
+				<img 
+					src="./assets/img/pt-br.png" 
+					width="32" 
+					height="32">
+			</a>
+			<a 
+				href="#" 
+				onclick="window.location='./es-ES/index.html';"
+				class="cabecalho-menu-item">
+				<img 
+					src="./assets/img/es-es.png" 
+					width="32" 
+					height="32">
 			</a>
 			<img class="cabecalho-imagem" src="./assets/img/photo.jpg" alt="Logo">
 			<nav class="cabecalho-menu">
-				<a href="#titulo" class="cabecalho-menu-item">Homepage</a>
+				<a href="#titulo" class="cabecalho-menu-item">Home</a>
 				<a href="#skills" class="cabecalho-menu-item">Skills</a>
 				<a href="#contatos" class="cabecalho-menu-item">Contacts</a>
 			</nav>
