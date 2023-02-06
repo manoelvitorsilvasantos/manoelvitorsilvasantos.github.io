@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="752px"
+   height="109px"
+   viewBox="0 0 752 109"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="footer_manoel_vitor.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="587.27718"
+     inkscape:cy="161.74854"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="705"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="0,0"
+       orientation="0,752"
+       id="guide3281"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="752,0"
+       orientation="-109,0"
+       id="guide3283"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="752,109"
+       orientation="0,-752"
+       id="guide3285"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="0,109"
+       orientation="109,0"
+       id="guide3287"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2494" />
+  <metadata
+     id="metadata2497">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Camada 1">
+    <g
+       id="g3320">
+      <g
+         transform="matrix(0.39689434,0,0,0.39689434,6.3006233,31.836764)"
+         id="g3293">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:313.73074341px;line-height:1.25;font-family:'Square721 Cn BT';-inkscape-font-specification:'Square721 Cn BT';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:7.84326982"
+           x="80.600334"
+           y="173.73973"
+           id="text3069"><tspan
+             sodipodi:role="line"
+             id="tspan3067"
+             x="80.600334"
+             y="173.73973"
+             style="stroke-width:7.84326982"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Andalus;-inkscape-font-specification:Andalus;fill:#000000;stroke-width:7.84326982"
+   id="tspan3079">Manoel</tspan> <tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Tempus Sans ITC';-inkscape-font-specification:'Tempus Sans ITC';fill:#ff2a2a;stroke-width:7.84326982"
+   id="tspan3073">Vitor</tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
