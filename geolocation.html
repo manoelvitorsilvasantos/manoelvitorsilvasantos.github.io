@@ -25,10 +25,12 @@
 <p>Click the button to get your coordinates.</p>
 
 <button onclick="getLz()">Try It</button>
-<p id="lt"></p>
-<p id="lg"></p>
+<div class="latitude"></div>
+<div class="longitude"></div>
 <script>
 var x = document.getElementById("demo");
+const latitude = document.querySelector('.latitude');
+const longitude = document.querySelector('.longitude');
 
 function getLz() {
   if (navigator.geolocation) {
@@ -39,8 +41,8 @@ function getLz() {
 }
 
 function showPosition(position) {
-	lt.innerHTML = "latitude:"+position.coords.latitude;
-	lg.innerHTML = "longitude:"+position.coords.longitude;
+	latitude.innerHTML = "latitude:"+position.coords.latitude;
+	longitude.innerHTML = "longitude:"+position.coords.longitude;
 }
 </script>
 
