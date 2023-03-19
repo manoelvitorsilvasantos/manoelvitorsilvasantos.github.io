@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meu Álbum de Fotos</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css" media="screen">
+		
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #000000;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 20px;
+		}
+
+		.gallery a {
+			margin: 10px;
+		}
+
+		.gallery img {
+			max-width: 60%;
+			height: auto;
+			border: 2px solid #fff;
+			transition: border-color 0.2s ease-in-out;
+		}
+
+		.gallery img:hover {
+			border-color: #333;
+		}
+	
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Fotos da Casa</h1>
+	</header>
+
+	<main>
+		<div class="gallery">
+			<a>
+				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0017.jpg" alt="Foto 1">
+			</a>
+			<a>
+				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0018.jpg" alt="Foto 2">
+			</a>
+			<a>
+				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0019.jpg" alt="Foto 3">
+			</a>
+			<a>
+				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0020.jpg" alt="Foto 4">
+			</a>
+			<a>
+				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0021.jpg" alt="Foto 5">
+			</a>
+			<a>
+				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0022.jpg" alt="Foto 6">
+			</a>
+
+			<a>
+				<img src="https://github.com/mvictor10/fotos-casa/blob/main/house.jpeg?raw=true" alt="7">
+			</a>
+		</div>
+	</main>
+</body>
+</html>
