@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Meu Álbum de Fotos</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<style type="text/css" media="screen">
@@ -31,7 +32,7 @@
 		}
 
 		.gallery img {
-			max-width: 90%;
+			max-width: 98%;
 			height: auto;
 			border: 2px solid #fff;
 			transition: border-color 0.2s ease-in-out;
@@ -40,6 +41,15 @@
 		.gallery img:hover {
 			border-color: #333;
 		}
+
+		.fotos{
+			background-color: gray;
+			color:white;
+			text-align:center;
+			font-weight:bold;
+		}
+
+
 	
 	</style>
 </head>
@@ -50,31 +60,84 @@
 
 	<main>
 		<div class="gallery">
-			<a>
-				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0016.jpg" alt="Foto 1">
+			<div class="fotos">
+				<p>Quarto I</p>
+				<a href="#">
+				<img 
+					title="Quarto 1"
+					src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0016.jpg" 
+					alt="Quarto I">
 			</a>
-			<a>
-				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0017.jpg" alt="Foto 1">
-			</a>
-			<a>
-				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0018.jpg" alt="Foto 2">
-			</a>
-			<a>
-				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0019.jpg" alt="Foto 3">
-			</a>
-			<a>
-				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0020.jpg" alt="Foto 4">
-			</a>
-			<a>
-				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0021.jpg" alt="Foto 5">
-			</a>
-			<a>
-				<img src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0022.jpg" alt="Foto 6">
-			</a>
+			</div>
 
-			<a>
-				<img src="https://github.com/mvictor10/fotos-casa/blob/main/house.jpeg?raw=true" alt="7">
-			</a>
+			<div class="fotos">
+				<p>Lavanderia</p>
+				<a href="#">
+					<img 
+						title="Lavanderia"
+						src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0017.jpg" 
+						alt="Lavanderia">
+				</a>
+			</div>
+
+			<div class="fotos">
+				<p>Sala de Estar</p>
+				<a href="#">
+					<img 
+						title="Sala de Estar"
+						src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0018.jpg" 
+						alt="Sala de Estar">
+				</a>
+			</div>
+
+			<div class="fotos">
+				<p>Sala de Estar</p>
+				<a href="#">
+					<img 
+						title="Sala de Estar"
+						src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0019.jpg" 
+						alt="Sala de Estar">
+				</a>
+			</div>
+
+			<div class="fotos">
+				<p>Cozinha</p>
+				<a href="#">
+					<img 
+						title="Cozinha"
+						src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0020.jpg" 
+						alt="Cozinha">
+				</a>
+			</div>
+
+			<div class="fotos">
+				<p>Cozinha</p>
+				<a href="#">
+					<img 
+						title="Cozinha"
+						src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0021.jpg" 
+						alt="Cozinha">
+				</a>
+			</div>
+
+			<div class="fotos">
+				<p>Quarto II</p>
+				<a href="#">				
+					<img 
+						title="Quarto II"
+						src="https://raw.githubusercontent.com/mvictor10/fotos-casa/main/IMG-20230318-WA0022.jpg" 
+						alt="Quarto II">
+				</a>
+			</div>
+			<div class="fotos">
+				<p>Frente de Casa</p>
+				<a href="#">
+					<img 
+						title="Frente de Casa"
+						src="https://github.com/mvictor10/fotos-casa/blob/main/house.jpeg?raw=true" 
+						alt="Frente da Casa">
+				</a>
+			</div>
 		</div>
 	</main>
 </body>
