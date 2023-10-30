@@ -3,7 +3,7 @@
 :root{
 	--default: linear-gradient(15deg,#AAABff, #0AABFF);
 	--main-bg:#ECECEC;
-	--bg-default:linear-gradient(15deg,#4682B4, #1E90FF);
+	--bg-default:linear-gradient(15deg,#00BFFF, #0AABFF);
 	--bg-main:#FFFFFF;
 	--bg-footer: #FAF2F2;
 	--bg-aside: #FAF2F2;
