@@ -2,9 +2,8 @@
 /* Configurações gerais do site*/
 :root{
 	--default: linear-gradient(15deg,#AAABff, #0AABFF);
-	/*--bg-default: linear-gradient(15deg,skyblue, #0AABFF);*/
 	--main-bg:#ECECEC;
-	--bg-default:linear-gradient(15deg,skyblue, #0AABFF);
+	--bg-default:linear-gradient(15deg,#4682B4, #1E90FF);
 	--bg-main:#FFFFFF;
 	--bg-footer: #FAF2F2;
 	--bg-aside: #FAF2F2;
