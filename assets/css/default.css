@@ -4,7 +4,7 @@
 	--default: linear-gradient(15deg,#AAABff, #0AABFF);
 	/*--bg-default: linear-gradient(15deg,skyblue, #0AABFF);*/
 	--main-bg:#ECECEC;
-	--bg-default:linear-gradient(15deg, #C9BDBD, #cfcfcf);
+	--bg-default:linear-gradient(15deg,skyblue, #0AABFF);
 	--bg-main:#FFFFFF;
 	--bg-footer: #FAF2F2;
 	--bg-aside: #FAF2F2;
