@@ -58,7 +58,7 @@
 <body>
     <div class="container">
         <div id="qrcode"></div> <!-- QR Code será gerado aqui -->
-        
+        <p>Clique ou Escanear</p>
         <!-- Título com ícone do PIX -->
         <div class="title">
             <img src="pix_logo.png" alt="Ícone PIX">
@@ -70,10 +70,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     
     <script>
+
+        const pixUrl = "00020126580014BR.GOV.BCB.PIX01369f19413d-e4a1-496c-9061-c13faa43bdf052040000530398654040.005802BR5922MANOEL VITOR PAU FERRO6009SAO PAULO62110507MVICTOR6304DC37";
+
         // Função para gerar o QR Code
         function gerarQRCode() {
             // URL do código de pagamento PIX (pode ser o link ou chave)
-            const pixUrl = "00020126580014BR.GOV.BCB.PIX01369f19413d-e4a1-496c-9061-c13faa43bdf052040000530398654040.005802BR5922MANOEL VITOR PAU FERRO6009SAO PAULO62110507MVICTOR6304DC37";
 
             // Criar o QR Code com a URL fornecida
             new QRCode(document.getElementById("qrcode"), {
@@ -86,8 +88,16 @@
             });
         }
 
+        function copiarPixUrl(){
+            navigator.clipboard.writeText(pixUrl).then(() =>{
+                alert('PIX URL copiado para area de transferencia!');
+            }).catch(errr =>{
+                console.log('Erro ao copiar: ', err);
+            });
+        }
         // Chama a função para gerar o QR Code assim que a página carrega
         gerarQRCode();
+        document.getElementById("qrcode").addEventListener("click", copiarPixUrl);
     </script>
 </body>
 </html>
